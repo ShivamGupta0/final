@@ -14,7 +14,7 @@
 }
 
 .parallax {
-	background-image: url("HomeDesktopHeader.png");
+	background-image: url("home.png");
 	height: 600px;
 	background-attachment: fixed;
 	background-position: center;
@@ -41,7 +41,7 @@
 }
 
 .caption {
-	position: absolute;
+	position: relative;
 	left: 0;
 	top: 50%;
 	width: 100%;
