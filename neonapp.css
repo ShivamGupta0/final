@@ -45,7 +45,7 @@
 }
 
 .caption {
-	position: relative;
+	position: sticky;
 	left: 0;
 	top: 50%;
 	width: 100%;
