@@ -13,6 +13,10 @@
 	padding-left: 30px;
 }
 
+.lead {
+	font-size: 25px !important;
+}
+
 .parallax {
 	background-image: url("home.png");
 	height: 600px;
@@ -41,7 +45,7 @@
 }
 
 .caption {
-	position: relative;
+	position: absolute;
 	left: 0;
 	top: 50%;
 	width: 100%;
@@ -113,12 +117,13 @@
 	.random {
 		margin-left: 100px;
 	}
+}
+
+@media only screen and (max-width: 992px) {
 	.parallax-1 {
 		height: 540px;
 	}
-
-}
-
-.navbar-brand {
-        font-size: 150px;
+	.random {
+		padding-right: 110px !important;
+	}
 }
