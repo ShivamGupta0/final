@@ -44,8 +44,43 @@
 	background-size: cover;
 }
 
+.hght {
+	height: 250px;
+}
+
+.mgin {
+	margin-top: 100px;
+}
+
+.parallax-3 {
+	background-image: url("img2.svg");
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-4 {
+	background-image: url("img3.svg");
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-5 {
+	background-image: url("img1.jpg");
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .caption {
-	position: relative;
+	position: sticky;
 	left: 0;
 	top: 50%;
 	width: 100%;
@@ -113,17 +148,31 @@
 	background-color: #181717;
 }
 
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #181717;
+  color: white;
+  font-size: 30px;
+}
+
 @media only screen and (max-width: 768px) {
 	.random {
-		margin-left: 100px;
+		margin-left: 18%;
+	}
+	.caption span.border {
+		font-size: 15px;
+	letter-spacing: 2px;
 	}
 }
 
 @media only screen and (max-width: 992px) {
 	.parallax-1 {
 		height: 540px;
-	}
-	.random {
-		padding-right: 110px !important;
 	}
 }
